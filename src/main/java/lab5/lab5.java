@@ -2,7 +2,7 @@ package lab5;
 
 public class lab5 {
     public static void main(String[] args) {
-        int[][] d = {{1, 1, 1, 1},
+        int[][] d = {{0, 1, 1, 1},
                      {1, 0, 1, 0},
                      {1, 1, 0, 1},
                      {1, 0, 1, 0}};
@@ -17,6 +17,8 @@ public class lab5 {
              result) {
             System.out.print(res + " ");
         }
+        biparti bp = new biparti();
+        System.out.println("\nBP? = " + bp.isBipartite(bipartite));
     }
 
 
