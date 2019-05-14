@@ -19,6 +19,10 @@ public class lab5 {
         }
         biparti bp = new biparti();
         System.out.println("\nBP? = " + bp.isBipartite(bipartite));
+
+
+        Cycle cycle = new Cycle();
+        cycle.isCycle(d);
     }
 
 
